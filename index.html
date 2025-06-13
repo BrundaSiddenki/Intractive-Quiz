@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Interactive Quiz | Brunda's Pro Version</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div id="start" class="card active">
+      <h1>Interactive Quiz</h1>
+      <p>Sharpen your web development skills!</p>
+      <button id="start-btn">Start Quiz</button>
+    </div>
+
+    <div id="quiz" class="card">
+      <div class="quiz-header">
+        <div class="question-count" id="question-count"></div>
+        <div class="progress-circle">
+          <svg>
+            <circle cx="30" cy="30" r="28"></circle>
+            <circle id="progress-circle" cx="30" cy="30" r="28"></circle>
+          </svg>
+          <span id="progress-text">0%</span>
+        </div>
+      </div>
+      <h2 id="question"></h2>
+      <div id="answers" class="answers"></div>
+      <div id="feedback" class="feedback"></div>
+    </div>
+
+    <div id="result" class="card">
+      <h2>Quiz Complete!</h2>
+      <p id="score"></p>
+      <div class="joke-box" id="joke-box">Loading a fun joke... 🤔</div>
+      <button id="new-joke-btn">Get Another Joke 🤪</button>
+      <button id="restart-btn">Restart Quiz</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
