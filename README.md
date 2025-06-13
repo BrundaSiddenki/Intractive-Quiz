@@ -1,4 +1,4 @@
-# Intractive-Quiz
+# Interactive-Quiz
 This is a responsive and visually engaging **Web Development Quiz** built using **HTML, CSS, and JavaScript**. It tests your front-end knowledge with real-time feedback, score tracking, and even ends with a random joke to keep things light and fun!
 
 ## 💡 Features
